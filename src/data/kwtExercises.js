@@ -298,6 +298,56 @@ export const KWT_EXERCISES = [
     after: " originally come from a small village in the north.",
     answers: ["is said to have"],
     explanation: "'Is said to have + past participle' is a passive reporting structure used to attribute an unverified claim about the past to people in general."
+  },
+  {
+    id: 31,
+    label: "Idiom",
+    prompt: "She is dealing with far too many responsibilities at the moment to take on anything else.",
+    keyWord: "PLATE",
+    before: "She has ",
+    after: " at the moment to take on anything else.",
+    answers: ["a lot on her plate"],
+    explanation: "'Have a lot on one's plate' means to be dealing with many responsibilities or problems at once."
+  },
+  {
+    id: 32,
+    label: "Idiom",
+    prompt: "He announced the merger before the deal had actually been finalised.",
+    keyWord: "GUN",
+    before: "He ",
+    after: " by announcing the merger before the deal had been finalised.",
+    answers: ["jumped the gun"],
+    explanation: "'Jump the gun' means to act before the appropriate time, especially prematurely."
+  },
+  {
+    id: 33,
+    label: "Idiom",
+    prompt: "If you look beyond what she actually said, it's clear she disagrees with the plan.",
+    keyWord: "LINES",
+    before: "",
+    after: ", it's clear she disagrees with the plan.",
+    answers: ["reading between the lines"],
+    explanation: "'Read between the lines' means to understand the implied meaning of something, beyond its literal words."
+  },
+  {
+    id: 34,
+    label: "Idiom",
+    prompt: "The staff always make an extra effort to make sure customers are satisfied.",
+    keyWord: "MILE",
+    before: "The staff always ",
+    after: " to make sure customers are satisfied.",
+    answers: ["go the extra mile"],
+    explanation: "'Go the extra mile' means to make a greater effort than is expected or required."
+  },
+  {
+    id: 35,
+    label: "Idiom",
+    prompt: "The contractor was less thorough than usual in order to finish the job faster.",
+    keyWord: "CORNERS",
+    before: "The contractor ",
+    after: " in order to finish the job faster.",
+    answers: ["cut corners"],
+    explanation: "'Cut corners' means to do something in the easiest or cheapest way, often sacrificing quality or thoroughness."
   }
 ];
 

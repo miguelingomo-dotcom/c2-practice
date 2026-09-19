@@ -5,6 +5,7 @@ import { VOCABULARY } from '../data/vocabulary';
 import { useStats } from '../context/StatsContext';
 import { todayStr } from '../utils/helpers';
 import { WordCard, MiniQuiz } from './common';
+import { SyncPanel } from './SyncPanel';
 
 export function Dashboard() {
   const [pvIndex, setPvIndex] = useState(() => Math.floor(Math.random() * PHRASAL_VERBS.length));
@@ -16,6 +17,7 @@ export function Dashboard() {
 
   return (
     <div>
+      <SyncPanel />
       <div className="flex items-center gap-3 mb-6">
         <span className="flex items-center justify-center w-14 h-14 rounded-full border-2 border-gold text-center">
           <span className="font-serif text-2xl text-gold">{streak}</span>

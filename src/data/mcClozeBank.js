@@ -418,6 +418,76 @@ export const MC_CLOZE_BANK = [
       { options: ["stem", "result", "arise", "come"], answer: "stem", note: "'stem from' is the standard formal collocation for tracing an origin." },
       { options: ["compelling", "persuasive", "striking", "powerful"], answer: "compelling", note: "'however compelling' is the most natural, common concessive collocation here." }
     ]
+  },
+  {
+    title: "The Problem with Frictionless Design",
+    text: "Technology companies have spent the past decade working to (1)___ friction from every possible interaction, reducing the number of steps between a user's impulse and its fulfilment. This pursuit of seamlessness is often (2)___ as pure customer service, but critics note that removing friction also removes the natural pauses in which a person might reconsider a decision. Each small reduction in friction (3)___ the balance of effort further in favour of the platform. Some designers argue for the deliberate reintroduction of friction in well-chosen places, to (4)___ moments where a brief pause would clearly serve the user's interests. This idea remains a minority position within an industry still largely (5)___ by engagement metrics that reward frictionlessness above almost everything else. Whether such pauses can be widely (6)___ without simply annoying users is far from settled. The absence of friction is not itself a neutral choice, since it always (7)___ certain kinds of behaviour over others. The debate is less about whether friction should exist than about who decides where it is (8)___.",
+    items: [
+      { options: ["strip", "remove", "eliminate", "clear"], answer: "strip", note: "'strip friction from' is the vivid, precise collocation used earlier in this bank." },
+      { options: ["framed", "presented", "described", "portrayed"], answer: "framed", note: "'framed as' is the standard collocation for how something is characterised in discourse." },
+      { options: ["tips", "shifts", "tilts", "moves"], answer: "tips", note: "'tips the balance' is a fixed idiomatic collocation." },
+      { options: ["preserve", "protect", "retain", "keep"], answer: "preserve", note: "'preserve moments' fits protecting something valuable from being lost." },
+      { options: ["governed", "ruled", "controlled", "dictated"], answer: "governed", note: "'governed by metrics' is the standard formal collocation." },
+      { options: ["implemented", "introduced", "applied", "adopted"], answer: "implemented", note: "'implemented' fits putting a design decision into practice." },
+      { options: ["favours", "prefers", "supports", "backs"], answer: "favours", note: "'favours X over Y' is the standard fixed collocation." },
+      { options: ["placed", "positioned", "located", "situated"], answer: "placed", note: "the simplest, most natural choice for where something is deliberately put." }
+    ]
+  },
+  {
+    title: "Emotional Labour at Work",
+    text: "Sociologists use the term emotional labour to describe the often invisible work of managing one's own feelings as part of a paid job — the flight attendant who must (1)___ calm during a delayed flight, the call-centre worker who must sound cheerful regardless of how the call is going. This kind of labour is rarely (2)___ in job descriptions, even though it can be as exhausting as any physical task. Some professions (3)___ emotional labour more heavily than others, while roles with less face-to-face interaction may (4)___ it only occasionally. Researchers distinguish 'surface acting', merely displaying an emotion, from 'deep acting', attempting to genuinely (5)___ the required feeling internally. Employers have been slow to (6)___ emotional labour as a genuine cost of certain jobs. Some organisations now offer brief recovery periods, on the theory that even a few minutes can help workers (7)___ their emotional reserves. Whether such measures can meaningfully (8)___ the toll of near-constant emotional performance remains an open question for many workers.",
+    items: [
+      { options: ["project", "display", "exhibit", "demonstrate"], answer: "project", note: "'project calm' is the standard collocation for outwardly presenting an emotional state." },
+      { options: ["acknowledged", "mentioned", "stated", "listed"], answer: "acknowledged", note: "'acknowledged in job descriptions' fits formal recognition, more than the neutral alternatives." },
+      { options: ["demand", "require", "need", "involve"], answer: "demand", note: "'demand emotional labour' is the natural, standard collocation." },
+      { options: ["require", "need", "involve", "demand"], answer: "require", note: "the simplest, most natural verb pairing with 'occasionally'." },
+      { options: ["generate", "produce", "create", "summon"], answer: "generate", note: "'generate a feeling' is the standard collocation for producing an internal state." },
+      { options: ["recognise", "acknowledge", "accept", "admit"], answer: "recognise", note: "'recognise as a cost' is the standard formal collocation." },
+      { options: ["replenish", "restore", "refill", "recover"], answer: "replenish", note: "'replenish reserves' is the precise, vivid collocation for restoring a depleted resource." },
+      { options: ["offset", "reduce", "lessen", "ease"], answer: "offset", note: "'offset a toll' precisely means to counterbalance a cost, fitting the analytical register." }
+    ]
+  },
+  {
+    title: "Micro-Credentials and the Job Market",
+    text: "As traditional degrees have grown more expensive and time-consuming, a parallel market of short, focused 'micro-credentials' has begun to (1)___ ground among learners and employers seeking a faster route into a field. Proponents argue these credentials allow people to (2)___ specific, verifiable skills without committing to years of broader study. Sceptics counter that a certificate's value depends heavily on whether the issuing platform has managed to (3)___ genuine credibility with employers. Some large employers now explicitly (4)___ certain micro-credentials as equivalent to relevant work experience, while others remain unconvinced a short course can (5)___ the depth of a traditional qualification. Credentials tied to a specific, in-demand technical skill tend to (6)___ far better in hiring decisions than generic ones. Most career advisers recommend treating micro-credentials as a (7)___ to traditional qualifications rather than a replacement. Whether this cautious framing will (8)___ as the market matures remains to be seen.",
+    items: [
+      { options: ["gain", "win", "take", "get"], answer: "gain", note: "'gain ground' is a fixed idiomatic collocation." },
+      { options: ["demonstrate", "show", "prove", "display"], answer: "demonstrate", note: "'demonstrate specific skills' is the standard formal collocation." },
+      { options: ["establish", "build", "create", "develop"], answer: "establish", note: "'establish credibility' is the standard, precise collocation." },
+      { options: ["list", "cite", "mention", "note"], answer: "list", note: "the simplest, most natural verb for including an item in a job posting." },
+      { options: ["match", "equal", "rival", "approach"], answer: "match", note: "'match the depth of' is the natural, standard collocation." },
+      { options: ["fare", "perform", "do", "score"], answer: "fare", note: "'fare well/better' is the standard idiomatic verb for how something turns out." },
+      { options: ["supplement", "addition", "complement", "adjunct"], answer: "supplement", note: "'a supplement to' is the standard fixed collocation, echoing an earlier item in this bank." },
+      { options: ["hold", "last", "persist", "endure"], answer: "hold", note: "'hold' fits remaining valid or unchanged, the simplest natural choice here." }
+    ]
+  },
+  {
+    title: "The Ethics of Targeted Advertising",
+    text: "Online advertising has grown so precisely targeted that a person can reasonably wonder how a platform came to know about a purchase they had only privately considered, and this precision has done more than any regulation to (1)___ public unease. Advertisers counter that targeting benefits consumers as much as sellers, since it (2)___ irrelevant advertising with content a person is more likely to find useful. Critics respond that this framing (3)___ over a troubling asymmetry: the platform knows a great deal about the person being targeted, while that person rarely knows what data was used to (4)___ a given advertisement to them. Regulators have begun to (5)___ rules requiring platforms to disclose why a person is seeing an advertisement. Some advertisers have shifted toward less granular targeting, partly because the public has grown more (6)___ of hyper-personalised advertising. Much may (7)___ on how future regulation is written and enforced. The gap between what advertisers know and what consumers understand continues to (8)___ at the core of the ethical debate.",
+    items: [
+      { options: ["heighten", "raise", "increase", "intensify"], answer: "heighten", note: "'heighten unease' is the standard formal collocation." },
+      { options: ["replaces", "substitutes", "exchanges", "swaps"], answer: "replaces", note: "the simplest, most natural verb for one thing taking the place of another." },
+      { options: ["glosses", "skims", "passes", "slides"], answer: "glosses", note: "'gloss over' is a fixed idiomatic collocation meaning to avoid discussing something properly." },
+      { options: ["target", "direct", "aim", "address"], answer: "target", note: "echoes the passage's central term; the most natural verb choice here." },
+      { options: ["introduce", "bring", "impose", "enforce"], answer: "introduce", note: "'introduce rules' is the standard formal collocation." },
+      { options: ["wary", "suspicious", "cautious", "doubtful"], answer: "wary", note: "'wary of' is the fixed collocation with 'of'." },
+      { options: ["depend", "hinge", "rest", "turn"], answer: "hinge", note: "'hinge on' is a fixed idiomatic collocation for depending entirely on something." },
+      { options: ["sit", "lie", "rest", "stand"], answer: "lie", note: "'lie at the core of' is the standard fixed collocation." }
+    ]
+  },
+  {
+    title: "Workplace Surveillance Software",
+    text: "The remote-work era has brought a quiet expansion of software designed to monitor employee activity, installed, in many cases, without much discussion of what such observation might (1)___ about how much an employer trusts its own staff. Vendors typically (2)___ it as a productivity tool, emphasising the insights it offers managers. Employees often report that the sense of being constantly watched can (3)___ anxiety and paradoxically reduce productivity. Legal protections vary considerably, and employers face few obstacles to (4)___ extensive monitoring as a condition of remote employment. Some companies have found that disclosing what is being monitored does more to (5)___ employee anxiety than the monitoring itself does to improve output. A smaller number of organisations have moved to outcome-based evaluation that (6)___ what was actually accomplished rather than time spent. The tension between oversight and autonomy shows little sign of being (7)___ soon. The more fundamental issue is what an organisation's instinct to install such software (8)___ about its relationship with the people who work there.",
+    items: [
+      { options: ["signal", "indicate", "suggest", "imply"], answer: "signal", note: "'signal about' fits conveying an underlying attitude, matching the analytical register." },
+      { options: ["market", "sell", "present", "promote"], answer: "market", note: "'market it as' is the standard commercial collocation." },
+      { options: ["heighten", "raise", "increase", "intensify"], answer: "heighten", note: "'heighten anxiety' is the standard formal collocation, echoing an earlier item in this bank." },
+      { options: ["imposing", "introducing", "requiring", "enforcing"], answer: "imposing", note: "'imposing monitoring' fits an employer-driven, somewhat one-sided action." },
+      { options: ["ease", "reduce", "lower", "lessen"], answer: "ease", note: "'ease anxiety' is the standard, natural collocation." },
+      { options: ["assesses", "measures", "evaluates", "judges"], answer: "assesses", note: "'assesses what was accomplished' is the precise, formal verb fitting evaluation register." },
+      { options: ["resolved", "settled", "solved", "fixed"], answer: "resolved", note: "'resolved' is the most formal, natural fit for ending an ongoing tension." },
+      { options: ["reveals", "shows", "exposes", "betrays"], answer: "reveals", note: "'reveals about a relationship' is the standard, natural collocation for the concluding rhetorical point." }
+    ]
   }
 ];
 

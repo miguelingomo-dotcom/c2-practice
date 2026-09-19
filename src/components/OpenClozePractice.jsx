@@ -76,6 +76,7 @@ export function OpenClozePractice() {
                 }
               />
               {isWrong && <p className="text-xs text-ink/40 dark:text-paper/40 mt-1">{Array.isArray(a) ? a.join(" / ") : a}</p>}
+              {checked && data.notes && data.notes[i] && <p className="text-xs text-ink/40 dark:text-paper/40 mt-1">{data.notes[i]}</p>}
             </div>
           );
         })}

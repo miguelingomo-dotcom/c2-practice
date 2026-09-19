@@ -178,6 +178,36 @@ export const PRECISION_BANK = [
     title: "Fix the grammar errors (relative pronouns and tense)",
     text: "Provided that the funding is approved on time, construction will began next spring. The board members, whom had reviewed the proposal thoroughly, voted unanimously in favour. Its been three years since the policy were first introduced.",
     reveal: "...construction will begin next spring. The board members, who had reviewed the proposal thoroughly, voted... (subject pronoun 'who', not 'whom'). It's been three years since the policy was first introduced."
+  },
+  {
+    type: "Spelling",
+    title: "Fix the misspelled words (committee decision)",
+    text: "The comittee's descision to postpone the anual conference recieved criticism from several members who felt the ammount of notice given was insufficient.",
+    reveal: "Correct: committee's, decision, annual, received, amount."
+  },
+  {
+    type: "Spelling",
+    title: "Fix the misspelled words (restaurant complaints)",
+    text: "Despite recieving numerous complaints, the restaurant's managment refused to acknowledge any wrongdoing, insisting their proceedures were allways followed corectly.",
+    reveal: "Correct: receiving, management, procedures, always, correctly."
+  },
+  {
+    type: "Punctuation",
+    title: "Fix the punctuation (report findings)",
+    text: "The report concluded three things costs had risen quality had declined and morale was low. Werent we supposed to address this last quarter she asked.",
+    reveal: "The report concluded three things: costs had risen, quality had declined, and morale was low. 'Weren't we supposed to address this last quarter?' she asked."
+  },
+  {
+    type: "Grammar",
+    title: "Fix the grammar errors (agreement and comparatives)",
+    text: "Everybody have their own opinion on the matter. The reason he was late was because he missed the train. Between the two proposals, the second one is the most ambitious. Its unlikely that either of the candidates are fully prepared.",
+    reveal: "Everybody has their own opinion. The reason he was late was that he missed the train (avoid 'reason... was because'). ...the second one is the more ambitious (comparative for two, not superlative). It's unlikely that either of the candidates is fully prepared."
+  },
+  {
+    type: "Grammar",
+    title: "Fix the grammar errors (correlative conjunctions and unreal past)",
+    text: "Not only did she finish the project early, she also came under budget. The jury was unable to reach a verdict, who were split evenly on the evidence presented. I wish I would have known about the change sooner.",
+    reveal: "Not only did she finish the project early, but she also came under budget ('not only... but also'). The jury, which was split evenly on the evidence, was unable to reach a verdict. I wish I had known about the change sooner (past perfect after 'wish', not 'would have')."
   }
 ];
 
