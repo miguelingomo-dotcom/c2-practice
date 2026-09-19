@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { PHRASAL_VERBS } from '../data/phrasalVerbs';
 import { IDIOMS } from '../data/idioms';
+import { VOCABULARY } from '../data/vocabulary';
 import { useStats } from '../context/StatsContext';
 import { todayStr } from '../utils/helpers';
 import { WordCard, MiniQuiz } from './common';

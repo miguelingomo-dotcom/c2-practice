@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react';
 // e.g. base: '/c2-practice/'  — leave as '/' if using a custom domain or Vercel.
 export default defineConfig({
   plugins: [react()],
-  base: '/'
+  base: '/c2-practice/'
 });
