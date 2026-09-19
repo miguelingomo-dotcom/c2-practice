@@ -10,8 +10,8 @@ npm install
 npm run dev
 ```
 
-Opens at http://localhost:5173/c2-practice/ (the `/c2-practice/` base path is set
-in `vite.config.js` for GitHub Pages — see below).
+Opens at http://localhost:5173/ (base is set to `/` in `vite.config.js`,
+correct for Vercel — see below if you switch to GitHub Pages).
 
 ## Project structure
 
@@ -32,25 +32,24 @@ src/
 Adding more exercises later is just adding objects to the arrays in `src/data/`
 — no component code needs to change.
 
-## Deploying to GitHub Pages
+## Deploying to Vercel (current setup)
 
-1. Push this repo to GitHub.
-2. In `vite.config.js`, confirm `base: '/c2-practice/'` matches your repo name
-   (change it if you name the repo something else).
-3. `npm install -g gh-pages` is not needed — it's already a devDependency.
-4. Run:
+`base: '/'` in `vite.config.js` is already correct for Vercel — just import
+the repo at vercel.com, it auto-detects Vite, no config needed. Every push to
+the connected branch redeploys automatically.
+
+## Deploying to GitHub Pages instead
+
+If you switch to GitHub Pages later:
+1. In `vite.config.js`, change `base: '/'` to `base: '/c2-practice/'` (or
+   whatever your repo is named).
+2. Run:
    ```bash
    npm run build
    npm run deploy
    ```
    This pushes the `dist/` folder to a `gh-pages` branch.
-5. In the GitHub repo settings → Pages, set the source to the `gh-pages` branch.
-
-## Deploying to Vercel instead
-
-If you'd rather use Vercel (no base-path fuss):
-1. Remove or set `base: '/'` in `vite.config.js`.
-2. Import the repo in Vercel — it auto-detects Vite, no config needed.
+3. In the GitHub repo settings → Pages, set the source to the `gh-pages` branch.
 
 ## What's NOT here yet (Phase 2 remaining work)
 
